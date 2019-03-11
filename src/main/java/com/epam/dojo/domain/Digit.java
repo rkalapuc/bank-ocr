@@ -19,6 +19,10 @@ public class Digit {
         this.thirdRow = thirdRow;
     }
 
+    public boolean equalsWithLine(String line) {
+        return (firstRow + secondRow + thirdRow).equals(line);
+    }
+
     public static final Digit ZERO = new Digit(" _ ", "| |", "|_|");
     public static final Digit ONE = new Digit("   ", "  |", "  |");
     public static final Digit TWO = new Digit(" _ ", " _|", "|_ ");

@@ -15,7 +15,7 @@ public class TestCreator {
         BufferedWriter writeIn = new BufferedWriter(new FileWriter("testIn.txt"));
         BufferedWriter writeOut = new BufferedWriter(new FileWriter("testOut.txt"));
         Random rand = new Random();
-        for (int i=1; i<100; i++) {
+        for (int i=0; i<100; i++) {
             DigitSequence ds = new DigitSequence();
             StringBuilder out = new StringBuilder();
             for (int j=1; j<=4; j++){
@@ -37,7 +37,7 @@ public class TestCreator {
     public void testZeroOne() {
         DigitSequence ds = new DigitSequence();
 
-        //ds.addDigit(Digit.ZERO);
+        ds.addDigit(Digit.ZERO);
         ds.addDigit(Digit.ONE);
         ds.addDigit(Digit.TWO);
         ds.addDigit(Digit.THREE);
