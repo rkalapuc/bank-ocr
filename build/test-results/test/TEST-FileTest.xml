@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FileTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-11T20:31:08" hostname="DESKTOP-22483JD" time="11.259">
-  <properties/>
-  <testcase name="testSpeed" classname="FileTest" time="5.777"/>
-  <testcase name="useTestFiles" classname="FileTest" time="5.482"/>
-  <system-out><![CDATA[Time it took to run 1000000 test cases: 5.773979s
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
