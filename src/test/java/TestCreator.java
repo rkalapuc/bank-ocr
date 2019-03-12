@@ -19,7 +19,7 @@ public class TestCreator {
             DigitSequence ds = new DigitSequence();
             StringBuilder out = new StringBuilder();
             for (int j=1; j<=4; j++){
-                Integer value = rand.nextInt(9);
+                Integer value = rand.nextInt(10);
                 ds.addDigit(Digit.DIGITS.get(value));
                 out.append(value);
             }
